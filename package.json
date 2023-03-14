@@ -1,6 +1,6 @@
 {
-  "name": "Components Field Number",
-  "repository": "https://github.com/solop-develop/ui-definitions-docs.git",
+  "name": "components-fields-number",
+  "repository": "https://github.com/elsiosanchez/fields-number.git",
   "author": "elsiosanchez <elsiosanches@gmail.com>",
   "private": true,
   "scripts": {

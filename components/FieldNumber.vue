@@ -20,7 +20,7 @@
     <br />
     <slot name="footer" />
   </div>
-  <div v-if="reference === 'AMOUNT'">
+  <div v-else-if="reference === 'AMOUNT'">
     <slot name="header" />
     <br />
     <el-input-number
@@ -54,7 +54,7 @@
     <br />
     <slot name="footer" />
   </div>
-  <div v-if="reference === 'QUANTITY'">
+  <div v-else-if="reference === 'QUANTITY'">
     <slot name="header" />
     <br />
     <el-input-number
@@ -111,7 +111,7 @@ const props = defineProps({
   },
   controls: {
     type: Boolean,
-    default: false,
+    default: true,
   },
   disabled: {
     type: Boolean,

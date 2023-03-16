@@ -123,7 +123,7 @@ const props = defineProps({
   },
   slotsCurrency: {
     type: String,
-    default: '',
+    default: '$',
   },
   placeholder: String,
 });
